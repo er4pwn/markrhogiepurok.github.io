@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Play&display=swap" type="text/css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" type="text/css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" type="text/css" rel="stylesheet"/>
+<style>
+	#demo {
+    font-size:20px;
+    margin-top: 200px;
+    font-family: Play;
+    }
+    .p {
+    	font-family: "Courier New";
+    }
+    button {
+    background-color: black; 
+  border-radius: 100px;
+  color: white;
+  font-family: Play;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    }
+</style>
+
+</head>
+<body>
+<div id="demo">
+	<center>
+	<button onclick="myFunction()">Execute!</button>
+	<p class="p">See My Profile</p>
+	</div>
+</center>
+
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "<style> body {background-color:black;color:white;}</style><center>Name:Mark Rhogie Purok <br> address:General Santos City <br> Email:purok.190772@gensan.sti.edu.ph <br> Gender:Male <br> Simple Message: #00000 Lives Matter</center>";
+}
+
+</script>
+
+</body>
+</html>
